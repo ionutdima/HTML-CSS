@@ -1,0 +1,41 @@
+#p1 {
+    font-weight: lighter;
+    font-family: 'Roboto Mono';
+    font-size: 1.2em; 
+    text-align: right;
+    border: 3px solid teal ;
+   
+    border-radius: 0.5em;
+    padding: 5px 10px 20px;
+    margin: auto;
+    background-color: rosybrown;
+    color:snow;
+    width: 70%;
+    height: 150px;
+    box-sizing: border-box;
+    background-image: url(background.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+body {
+    box-sizing: border-box;
+}
+p {
+    font-weight: normal;
+    line-height: 1.2em;
+}
+#p1 span {
+    color: turquoise;
+}
+div {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 10px;
+}
+div div {
+    background-color: teal;
+    border: 2px solid red;
+    width: 5%;
+
+}
